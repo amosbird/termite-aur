@@ -1,0 +1,20 @@
+pkgbase = termite
+	pkgdesc = A simple VTE-based terminal
+	pkgver = 99999.13.r25.gf7aa2d5
+	pkgrel = 1
+	url = https://github.com/amosbird/termite/
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = git
+	makedepends = vte3
+	makedepends = ncurses
+	source = git://github.com/amosbird/termite
+	source = git+https://github.com/thestinger/util
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = termite
+	pkgdesc = A simple VTE-based terminal
+	depends = vte3
+	backup = etc/xdg/termite/config
